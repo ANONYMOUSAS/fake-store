@@ -1,0 +1,112 @@
+/* Styling for Product Cards */
+.product-list {
+    padding: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 16px;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 0 5px #1890ff;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+  }
+  
+  .product-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    font-weight: bold;
+  }
+  
+  .product-card a {
+    display: block;
+    background-color: #1890ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 100px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .product-card a:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* ProductList.css */
+.product-list {
+    margin: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    transition: box-shadow 0.2s;
+  
+    &:hover {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  .shopping-cart {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+    transition: box-shadow 0.2s;
+  
+    &:hover {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  
+  /* Menu Items */
+.menu-item {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff; /* Text color for menu items */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for menu items */
+  .menu-item:hover {
+    background-color: #555; /* Background color on hover */
+  }
+
+  /* Logo */
+.logo {
+    color: #fff; /* Text color for the logo */
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  
+  /* Menu Layout */
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
